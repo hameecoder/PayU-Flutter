@@ -2,8 +2,8 @@ name: payu_ui
 description: Flutter package with Payu UI elements.
 version: 1.0.4
 publish_to: none
-homepage: https://github.com/PayU-EMEA/PayU-Flutter
-issue_tracker: https://github.com/PayU-EMEA/PayU-Flutter/issues
+homepage: https://github.com/hameecoder/PayU-Flutter
+issue_tracker: https://github.com/hameecoder/PayU-Flutter/issues
 environment:
   sdk: '>=3.4.0 <4.0.0'
   flutter: ">=2.5.0"
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   payu_interface:
     git:
-      url: https://github.com/PayU-EMEA/PayU-Flutter.git
+      url: https://github.com/hameecoder/PayU-Flutter.git
       path: payu_interface
       ref: 1.0.4
   provider: ^6.1.5

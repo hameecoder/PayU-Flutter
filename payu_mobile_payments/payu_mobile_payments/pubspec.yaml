@@ -2,8 +2,8 @@ name: payu_mobile_payments
 description: Flutter plugin which allows make payments via Apple Pay / Google Pay
 version: 1.0.4
 publish_to: none
-homepage: https://github.com/PayU-EMEA/PayU-Flutter
-issue_tracker: https://github.com/PayU-EMEA/PayU-Flutter/issues
+homepage: https://github.com/hameecoder/PayU-Flutter
+issue_tracker: https://github.com/hameecoder/PayU-Flutter/issues
 environment:
   sdk: '>=3.4.0 <4.0.0'
   flutter: ">=2.5.0"
@@ -12,17 +12,17 @@ dependencies:
     sdk: flutter
   payu_mobile_payments_android:
     git:
-      url: https://github.com/PayU-EMEA/PayU-Flutter.git
+      url: https://github.com/hameecoder/PayU-Flutter.git
       path: payu_mobile_payments/payu_mobile_payments_android
       ref: 1.0.4
   payu_mobile_payments_ios:
     git:
-      url: https://github.com/PayU-EMEA/PayU-Flutter.git
+      url: https://github.com/hameecoder/PayU-Flutter.git
       path: payu_mobile_payments/payu_mobile_payments_ios
       ref: 1.0.4
   payu_mobile_payments_platform_interface:
     git:
-      url: https://github.com/PayU-EMEA/PayU-Flutter.git
+      url: https://github.com/hameecoder/PayU-Flutter.git
       path: payu_mobile_payments/payu_mobile_payments_platform_interface
       ref: 1.0.4
 dev_dependencies:
